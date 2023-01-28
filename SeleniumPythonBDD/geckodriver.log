@@ -1,0 +1,24 @@
+1638871523641	geckodriver	INFO	Listening on 127.0.0.1:62278
+1638871526440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62279" "-no-remote" "-profile" "C:\\Users\\Mint\\AppData\\Local\\Temp\\rust_mozprofilerWxFZJ"
+1638871526731	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Mint\\AppData\\Local\\Temp\\rust_mozprofilerWxFZJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62279/devtools/browser/8c9b00e9-da82-450a-963c-aceccd70fe76
+1638871528570	Marionette	INFO	Listening on port 62285
+1638871529070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638871529084	Marionette	INFO	Stopped listening on port 62285
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639478052694	geckodriver	INFO	Listening on 127.0.0.1:55009
+1639478055765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55010" "-no-remote" "-profile" "C:\\Users\\Mint\\AppData\\Local\\Temp\\rust_mozprofilea0aGMd"
+1639478056038	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Mint\\AppData\\Local\\Temp\\rust_mozprofilea0aGMd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55010/devtools/browser/22c3d4ac-871a-4e8c-ad09-8b4cdd150eb0
+1639478057892	Marionette	INFO	Listening on port 55016
+1639478057925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639478057939	Marionette	INFO	Stopped listening on port 55016
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
